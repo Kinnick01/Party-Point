@@ -9,6 +9,17 @@ Our vision:
 Setup the project:
 
 
+
+
+
+Naming conventions :
+-When a ticket is assigned to you create a branch with the name of the ticket, and further branches form that branch, if other problems occur.
+-Please have the courage create issues, and tickets, if you can't please notify an admin.
+-All names should fall in the category of the problem, even if the problem has not been in the tickets. 
+-While naming please watch out for duplication, if a duplicate instance occurs please notify the admin and track what is on the branch.
+
+
+
 Contributors:
 
 Feodóra Bakó
