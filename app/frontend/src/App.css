@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    /*top, right, buttom, left*/
+    margin: 0 20vw 0 20vw;
+
+
+}
