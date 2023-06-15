@@ -6,7 +6,7 @@ const menu = [
     {text: "Home", href: "/"},
     {text: "Events", href: "/events"},
     {text: "FAQ", href: "/faq"},
-    {text: "My profile", href: "/profile"}
+    {text: "Login", href: "/login"}
 ];
 
 function Navbar() {
@@ -14,6 +14,7 @@ function Navbar() {
 
     const handleClick = () => {
         setIsOpen(!isOpen);
+        
     }
 
     return (
