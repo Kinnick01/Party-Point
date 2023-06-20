@@ -33,7 +33,7 @@ function Navbar() {
                                 {menu.map((e, i) => (
                                     <li className="navbar-list-item" key={i}>
                                         <Link className="navbar-link" to={e.href}>
-                                            <button onClick={handleClick} className="navbar-a-mobile">{e.text}</button>
+                                            <button onClick={handleClick} className="navbar-button">{e.text}</button>
                                         </Link>
                                     </li>
                                 ))}
@@ -54,7 +54,7 @@ function Navbar() {
                                 {menu.map((e, i) => (
                                     <li className="navbar-list-item-mobile" key={i}>
                                         <Link className="navbar-link-mobile" to={e.href}>
-                                            <button onClick={handleClick} className="navbar-a-mobile">{e.text}</button>
+                                            <button onClick={handleClick} className="navbar-button">{e.text}</button>
                                         </Link>
                                     </li>
                                 ))}
