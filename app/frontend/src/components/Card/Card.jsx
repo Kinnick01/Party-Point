@@ -9,6 +9,9 @@ function Card(eventObject) {
     const time = "20:00 - 06:00";
     const date = "01.01.2020 - 02.01.2020";
     const location = "Budapest";
+    // TODO - fetch events here
+
+    //TODO - make object for placeholder data - DRY!
 
     return (
         <div className="a4cards">
