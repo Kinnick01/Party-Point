@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2271da8-aef2-44ac-9ebc-8046d6981ca5" name="Changes" comment="add home and navbar component" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Qw1LDhONhylaq4R7a9mBCdyYa7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/bakof/Documents/CodeCool/petPro/Party-Point",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bakof\Documents\CodeCool\petPro\Party-Point\app\frontend\src" />
+      <recent name="C:\Users\bakof\Documents\CodeCool\petPro\Party-Point\app\frontend\src\components" />
+      <recent name="C:\Users\bakof\Documents\CodeCool\petPro\Party-Point\app\frontend\src\components\LogoBar" />
+      <recent name="C:\Users\bakof\Documents\CodeCool\petPro\Party-Point\app\frontend\src\components\Navbar" />
+      <recent name="C:\Users\bakof\Documents\CodeCool\petPro\Party-Point\app\frontend\src\components\Home" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/app/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2271da8-aef2-44ac-9ebc-8046d6981ca5" name="Changes" comment="" />
+      <created>1686249771347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686249771347</updated>
+      <workItem from="1686249773642" duration="5423000" />
+    </task>
+    <task id="LOCAL-00001" summary="remove unused dependency">
+      <created>1686253543789</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253543789</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add simple css for homepage">
+      <created>1686253617128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253617128</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add logo placeholder">
+      <created>1686253712556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253712556</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add logobar">
+      <created>1686253832277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253832277</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add logobar's basic style">
+      <created>1686253849338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253849338</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add navbar and logobar to the App">
+      <created>1686253874787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253874787</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add hamburger menu basic style">
+      <created>1686253892710</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253892710</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add home and navbar component">
+      <created>1686253981064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253981064</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove unused dependency" />
+    <MESSAGE value="add simple css for homepage" />
+    <MESSAGE value="add logo placeholder" />
+    <MESSAGE value="add logobar" />
+    <MESSAGE value="add logobar's basic style" />
+    <MESSAGE value="add navbar and logobar to the App" />
+    <MESSAGE value="add hamburger menu basic style" />
+    <MESSAGE value="add home and navbar component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add home and navbar component" />
+  </component>
+</project>
