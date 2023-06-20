@@ -67,4 +67,5 @@ function Card(eventObject) {
     );
 }
 
-export default Card
+
+export default Card;

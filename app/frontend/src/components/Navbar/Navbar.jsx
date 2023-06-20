@@ -14,7 +14,6 @@ function Navbar() {
 
     const handleClick = () => {
         setIsOpen(!isOpen);
-
     }
 
     return (

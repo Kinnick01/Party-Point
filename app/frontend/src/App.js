@@ -14,8 +14,8 @@ function App() {
                 <div className="content">
                     <LogoBar/>
                     <Routes>
-                        <Route path="/" element={<HomePage/>}/>
-                        <Route path="/login" element={<Login/>}/>
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="/login" element={<Login />} />
                     </Routes>
                 </div>
             </Router>
