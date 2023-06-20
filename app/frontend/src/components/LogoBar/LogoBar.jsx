@@ -1,6 +1,6 @@
 import React from "react";
 import "./logobar.css";
-import logo from "./partyPointFavicon.PNG"
+import logo from "/Users/krausadam/Desktop/festivepoint app./Party-Point/app/frontend/src/components/LogoBar/LogoWithSlogen.png"
 
 function Logobar() {
     return (
