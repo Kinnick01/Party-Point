@@ -32,8 +32,8 @@ function Navbar() {
                             <ul className="navbar-list">
                                 {menu.map((e, i) => (
                                     <li className="navbar-list-item" key={i}>
-                                        <Link className="navbar-link" href={e.href}>
-                                            <a className="navbar-a">{e.text}</a>
+                                        <Link className="navbar-link" to={e.href}>
+                                            <a onClick={handleClick} className="navbar-a-mobile">{e.text}</a>
                                         </Link>
                                     </li>
                                 ))}
@@ -53,7 +53,7 @@ function Navbar() {
                             <ul className="navbar-list-mobile">
                                 {menu.map((e, i) => (
                                     <li className="navbar-list-item-mobile" key={i}>
-                                        <Link className="navbar-link-mobile" href={e.href}>
+                                        <Link className="navbar-link-mobile" to={e.href}>
                                             <a onClick={handleClick} className="navbar-a-mobile">{e.text}</a>
                                         </Link>
                                     </li>
