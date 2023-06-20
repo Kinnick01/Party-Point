@@ -132,3 +132,18 @@ nav.show {
 .navbar-button {
     display: block;
 }
+
+.navbar-button {
+    display: block;
+    background-color: indianred;
+    color: white;
+    border: none;
+    padding: 2vw 5vw;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-button:hover {
+    background-color: lightcoral;
+}

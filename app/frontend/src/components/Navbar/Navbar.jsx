@@ -14,55 +14,54 @@ function Navbar() {
 
     const handleClick = () => {
         setIsOpen(!isOpen);
-        
     }
 
     return (
         <>
-        {
-            isOpen ?
-                <div className="navbar-container">
-                    <div className="hamburger-icon" id="icon" onClick={handleClick}>
-                        <div className="icon-1" id="a"></div>
-                        <div className="icon-2" id="b"></div>
-                        <div className="icon-3" id="c"></div>
-                        <div className="clear"></div>
+            {
+                isOpen ?
+                    <div className="navbar-container">
+                        <div className="hamburger-icon" id="icon" onClick={handleClick}>
+                            <div className="icon-1" id="a"></div>
+                            <div className="icon-2" id="b"></div>
+                            <div className="icon-3" id="c"></div>
+                            <div className="clear"></div>
+                        </div>
+                        <nav>
+                            <ul className="navbar-list">
+                                {menu.map((e, i) => (
+                                    <li className="navbar-list-item" key={i}>
+                                        <Link className="navbar-link" to={e.href}>
+                                            <button onClick={handleClick} className="navbar-button">{e.text}</button>
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </nav>
+                        <div className="dark-red" id="blue"></div>
                     </div>
-                    <nav>
-                        <ul className="navbar-list">
-                            {menu.map((e, i) => (
-                                <li className="navbar-list-item" key={i}>
-                                    <Link className="navbar-link" href={e.href}>
-                                        <a className="navbar-a">{e.text}</a>
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </nav>
-                    <div className="dark-red" id="blue"></div>
-                </div>
-                :
-                <div className="navbar-container">
-                    <div className="hamburger-icon" id="icon" onClick={handleClick}>
-                        <div className="icon-1 a" id="a"></div>
-                        <div className="icon-2 c" id="b"></div>
-                        <div className="icon-3 b" id="c"></div>
-                        <div className="clear"></div>
+                    :
+                    <div className="navbar-container">
+                        <div className="hamburger-icon" id="icon" onClick={handleClick}>
+                            <div className="icon-1 a" id="a"></div>
+                            <div className="icon-2 c" id="b"></div>
+                            <div className="icon-3 b" id="c"></div>
+                            <div className="clear"></div>
+                        </div>
+                        <nav className="show">
+                            <ul className="navbar-list-mobile">
+                                {menu.map((e, i) => (
+                                    <li className="navbar-list-item-mobile" key={i}>
+                                        <Link className="navbar-link-mobile" to={e.href}>
+                                            <button onClick={handleClick} className="navbar-button">{e.text}</button>
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </nav>
+                        <div className="dark-red slide" id="blue"></div>
                     </div>
-                    <nav className="show">
-                        <ul className="navbar-list-mobile">
-                            {menu.map((e, i) => (
-                                <li className="navbar-list-item-mobile" key={i}>
-                                    <Link className="navbar-link-mobile" href={e.href}>
-                                        <a onClick={handleClick} className="navbar-a-mobile">{e.text}</a>
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </nav>
-                    <div className="dark-red slide" id="blue"></div>
-                </div>
-        }
+            }
         </>
     )
 }
