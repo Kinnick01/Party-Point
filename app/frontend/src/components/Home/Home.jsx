@@ -1,11 +1,13 @@
 import React from "react";
 import Card from "../Card/Card";
 import { Link } from "react-router-dom";
+import"./Home.css";
 
 export default function HomePage() {
     return (
         <>
-        <div>
+        <div className="homePageHolder">
+        <div >
         <Link to="/genres">
           <button> Genres</button>
         </Link>
@@ -19,6 +21,7 @@ export default function HomePage() {
           <button> Events</button>
         </Link>
             <Card/>
+            </div>
         </>
     );
 }
