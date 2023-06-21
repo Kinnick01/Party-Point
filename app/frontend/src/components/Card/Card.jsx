@@ -15,6 +15,7 @@ function Card(eventObject) {
 
     return (
         <div className="a4cards">
+            
             <div className="cardHolder">
                 <div className="genreCard">
                     <img className="pocsfaszubagoly" src={PPLogo} alt="PartyPointLogo"/>

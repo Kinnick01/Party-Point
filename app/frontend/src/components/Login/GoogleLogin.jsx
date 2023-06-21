@@ -1,7 +1,7 @@
 import React from "react";
 
 class GoogleLogin extends React.Component {
-  componentDidMount() {
+  /*componentDidMount() {
     // Load the Google API script
     const script = document.createElement('script');
     script.src = 'https://apis.google.com/js/platform.js';
@@ -25,13 +25,15 @@ class GoogleLogin extends React.Component {
       // Send the ID token to your server for verification or other operations
       console.log('Google ID token:', idToken);
     });
-  };
+  };*/
 
   render() {
-    return (
+    return(
+      <div><button>Sign in with google</button></div>
+    /*return (
       <div>
         <button onClick={this.handleSignIn}>Sign in with Google</button>
-      </div>
+      </div>*/
     );
   }
 }
