@@ -14,10 +14,10 @@ function Card(eventObject) {
     //TODO - make object for placeholder data - DRY!
 
     return (
-        <div className="a4cards">
+        <div className="card_scroller_container">
             <div className="cardHolder">
                 <div className="genreCard">
-                    <img className="pocsfaszubagoly" src={PPLogo} alt="PartyPointLogo"/>
+                    <img className="card_img" src={PPLogo} alt="PartyPointLogo"/>
                     <div className="innerCard">
                         <div className="eventName"> Name: {name}</div>
                         <div className="eventDate">Date: {date}</div>
@@ -29,7 +29,7 @@ function Card(eventObject) {
             </div>
             <div className="cardHolder">
                 <div className="genreCard">
-                    <img className="pocsfaszubagoly" src={P2PLogo} alt="PartyPointLogo"/>
+                    <img className="card_img" src={P2PLogo} alt="PartyPointLogo"/>
                     <div className="innerCard">
                         <div className="eventName"> Name: {name}</div>
                         <div className="eventDate">Date: {date}</div>
@@ -41,7 +41,7 @@ function Card(eventObject) {
             </div>
             <div className="cardHolder">
                 <div className="genreCard">
-                    <img className="pocsfaszubagoly" src={PPLogo} alt="PartyPointLogo"/>
+                    <img className="card_img" src={PPLogo} alt="PartyPointLogo"/>
                     <div className="innerCard">
                         <div className="eventName"> Name: {name}</div>
                         <div className="eventDate">Date: {date}</div>
@@ -53,7 +53,7 @@ function Card(eventObject) {
             </div>
             <div className="cardHolder">
                 <div className="genreCard">
-                    <img className="pocsfaszubagoly" src={P2PLogo} alt="PartyPointLogo"/>
+                    <img className="card_img" src={P2PLogo} alt="PartyPointLogo"/>
                     <div className="innerCard">
                         <div className="eventName"> Name: {name}</div>
                         <div className="eventDate">Date: {date}</div>
