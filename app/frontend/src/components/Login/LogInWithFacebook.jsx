@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import FacebookLogin from '@greatsumini/react-facebook-login';
-import "./Login.css"
+import "./LogInWithFacebook.css"
 
 class FacebookLoginButton extends React.Component {
   responseFacebook = (response) => {
@@ -16,7 +16,7 @@ class FacebookLoginButton extends React.Component {
           autoLoad={false}
           fields="name,email,picture"
           callback={this.responseFacebook}
-          cssClass="facebook-login-button"
+          className="facebook-login-button"
           icon="fa-facebook"
           textButton="Login with Facebook"
         />
