@@ -1,11 +1,15 @@
 import React from 'react';
 import GoogleLogin from 'react-google-login';
 
+
+
+
 const GoogleOAuth2 = () => {
   const responseGoogle = (response) => {
     // Handle the Google OAuth2 response
     console.log(response);
   };
+
 
   return (
     <div>

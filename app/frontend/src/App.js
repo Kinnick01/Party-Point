@@ -6,6 +6,8 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import LogoBar from "./components/LogoBar/LogoBar";
 import Genres from "./components/EventFilters/Genres"
+import ProfilePage from "./components/ProfilePage/ProfilePage";
+import RegistrationPage from "./components/Registration/RegistrationPage";
 function App() {
     return (
         <div className="App">
@@ -19,6 +21,8 @@ function App() {
                         <Route path= "/genres" element={<Genres/>}/>
                         <Route path= "/places" element={<Genres/>}/>
                         <Route path= "/events" element={<Genres/>}/>
+                        <Route path= "/profile" element={<ProfilePage/>}/>
+                        <Route path= "/registration" element={<RegistrationPage/>}/>
                     </Routes>
                 </div>
             </Router>
