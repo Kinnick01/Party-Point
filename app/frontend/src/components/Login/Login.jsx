@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
-import GoogleLogin from '../GoogleLogin/GoogleLogin';
-
+import GoogleLogin from './GoogleLogin';
+import FacebookLoginButton from './LogInWithFacebook.jsx';
+import { Link } from 'react-router-dom';
+import "./Login.css"
 const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -23,9 +25,10 @@ const Login = () => {
     };
 
     return (
-        <div>
-            <form onSubmit={handleSubmit}>
-                <div>
+        <div className='loginHolder'>
+            <div className='ppLoginDiv'>
+            <form className='partyPointLoginForm' onSubmit={handleSubmit}>
+                <div className='username'>
                     <label htmlFor="username">Username:</label>
                     <input
                         type="text"
@@ -34,7 +37,7 @@ const Login = () => {
                         onChange={handleUsernameChange}
                     />
                 </div>
-                <div>
+                <div className='passsword'>
                     <label htmlFor="password">Password:</label>
                     <input
                         type="password"
@@ -43,11 +46,19 @@ const Login = () => {
                         onChange={handlePasswordChange}
                     />
                 </div>
-                <button type="submit">Log In</button>
+                <button className='submit' type="submit">Log In</button>
+                
             </form>
-            <GoogleLogin/>
+            </div>
+            <div className='googleLogin'><GoogleLogin/></div>
+           <div className='facebookLogin'> <FacebookLoginButton/></div>
+           <div className='homeButton'>
+             <Link to="/">
+          <button>Home</button>
+        </Link>
+        </div>
+
         </div>
     );
 };
-
 export default Login;

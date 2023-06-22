@@ -1,11 +1,14 @@
 import React from "react";
 import "./Card.css"
 import PPLogo from "../../../src/PartyPointFullLogo.png";
+import P2PLogo from "../../../src/FullLogoRed.png";
 import {placeholder_card_data} from "./placeholder_card_data";
 
 function Card(eventObject) {
-    // TODO - fetch events here
+   // TODO - fetch events here
     let data = placeholder_card_data;
+
+    //TODO - make object for placeholder data - DRY!
 
     return (
         <div className="card_scroller_container">
