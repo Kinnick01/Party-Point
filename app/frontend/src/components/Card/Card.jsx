@@ -8,14 +8,13 @@ function Card(eventObject) {
    // TODO - fetch events here
     let data = placeholder_card_data;
 
-    //TODO - make object for placeholder data - DRY!
-
     return (
         <div className="card_scroller_container">
             {data.events.map((event, index) => {
+                const picture = event.picture || PPLogo;
                 return (
                     <div className="cardHolder">
-                        <img className="card_img" src={PPLogo} alt="PartyPointLogo"/>
+                        <img className="card_img" src={picture} alt="PartyPointLogo"/>
                         <div className="innerCard">
                             <div className="eventName"> Name: {event.name}</div>
                             <div className="eventDate">Date: {event.date}</div>
