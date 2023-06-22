@@ -10,8 +10,29 @@ const RegistrationPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission here, e.g., send data to server or perform client-side validation
+    fetch('http://localhost:8080/users/registration', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        "username": username,
+        "email": email,
+        "genreSet":["POP"],
+        "password": password
+      })
+    })
+        .then(response => response.json())
+        .then(data => {
+          // Handle the response data
+          console.log(data);
+        })
+        .catch(error => {
+          // Handle any errors
+          console.error(error);
+        });
 
-    
+
     console.log("Form submitted!");
     console.log("Username:", username);
     console.log("Email:", email);
