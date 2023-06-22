@@ -1,41 +1,25 @@
-import React from "react";
+import React from 'react';
+import GoogleLogin from 'react-google-login';
 
-class GoogleLogin extends React.Component {
-  /*componentDidMount() {
-    // Load the Google API script
-    const script = document.createElement('script');
-    script.src = 'https://apis.google.com/js/platform.js';
-    script.onload = this.initGoogleSignIn;
-    document.body.appendChild(script);
-  }
-
-  initGoogleSignIn = () => {
-    // Initialize Google Sign-In
-    window.gapi.load('auth2', () => {
-      window.gapi.auth2.init({
-        client_id: 'YOUR_GOOGLE_CLIENT_ID',
-      });
-    });
+const GoogleOAuth2 = () => {
+  const responseGoogle = (response) => {
+    // Handle the Google OAuth2 response
+    console.log(response);
   };
 
-  handleSignIn = () => {
-    // Trigger Google Sign-In
-    window.gapi.auth2.getAuthInstance().signIn().then(googleUser => {
-      const idToken = googleUser.getAuthResponse().id_token;
-      // Send the ID token to your server for verification or other operations
-      console.log('Google ID token:', idToken);
-    });
-  };*/
+  return (
+    <div>
+      
+      <GoogleLogin
+        clientId="1046386489846-sq86ihtdn7b3vl2iv06k566t8k9bps4a.apps.googleusercontent.com"
+        redirectUri='http://localhost:3000/'
+        buttonText="Login with Google"
+        onSuccess={responseGoogle}
+        onFailure={responseGoogle}
+        cookiePolicy={'single_host_origin'}
+      />
+    </div>
+  );
+};
 
-  render() {
-    return(
-      <div><button>Sign in with google</button></div>
-    /*return (
-      <div>
-        <button onClick={this.handleSignIn}>Sign in with Google</button>
-      </div>*/
-    );
-  }
-}
-
-export default GoogleLogin;
+export default GoogleOAuth2;
