@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/krausadam/Desktop/festivepoint app./Party-Point/app/frontend/src/components/Card/Card.css"
+import "./Card.css"
 import PPLogo from "../../../src/PartyPointFullLogo.png";
 import P2PLogo from "../../../src/FullLogoRed.png";
 
