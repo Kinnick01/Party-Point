@@ -1,7 +1,7 @@
 {
   "name": "party-point",
   "version": "0.1.0",
-  "proxy": "http://localhost:8080/",
+
   "private": true,
   "dependencies": {
     "@greatsumini/react-facebook-login": "^3.3.3",

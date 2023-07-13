@@ -4,6 +4,7 @@ import React from "react";
 function Events(){
     return(
    <div>
+       <div><a>This is the events page</a></div>
      <Link to="/">
           <button> Home</button>
         </Link>
