@@ -1,0 +1,22 @@
+Index: app/frontend/src/components/Card/Card.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\r\nimport \"./Card.css\"\r\nimport PPLogo from \"../../../src/PartyPointFullLogo.png\";\r\nimport {placeholder_card_data} from \"./placeholder_card_data\";\r\n\r\nfunction Card(eventObject) {\r\n    // TODO - fetch events here\r\n    let data = placeholder_card_data;\r\n\r\n    return (\r\n        <div className=\"card_scroller_container\">\r\n            {data.events.map((event, index) => {\r\n                return (\r\n                    <div className=\"cardHolder\">\r\n                        <img className=\"card_img\" src={PPLogo} alt=\"PartyPointLogo\"/>\r\n                        <div className=\"innerCard\">\r\n                            <div className=\"eventName\"> Name: {event.name}</div>\r\n                            <div className=\"eventDate\">Date: {event.date}</div>\r\n                            <div className=\"eventTime\">Time {event.time}</div>\r\n                            <div className=\"Location\">Location:{event.location} </div>\r\n                        </div>\r\n                    </div>\r\n                )\r\n            })}\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default Card;
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/frontend/src/components/Card/Card.jsx b/app/frontend/src/components/Card/Card.jsx
+--- a/app/frontend/src/components/Card/Card.jsx	(revision 9e90ac0f217bc274ce817cde42d0b6dc0aee43cb)
++++ b/app/frontend/src/components/Card/Card.jsx	(date 1687369568142)
+@@ -10,9 +10,10 @@
+     return (
+         <div className="card_scroller_container">
+             {data.events.map((event, index) => {
++                const picture = event.picture || PPLogo;
+                 return (
+                     <div className="cardHolder">
+-                        <img className="card_img" src={PPLogo} alt="PartyPointLogo"/>
++                        <img className="card_img" src={picture} alt="PartyPointLogo"/>
+                         <div className="innerCard">
+                             <div className="eventName"> Name: {event.name}</div>
+                             <div className="eventDate">Date: {event.date}</div>

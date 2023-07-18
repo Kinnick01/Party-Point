@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/users")
+
 public class UserController {
 
     private final UserService userService;
@@ -16,12 +17,14 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping
-    public UserEntity getUser() {
-        return null;
+    @GetMapping("/{id}")
+    public UserEntity getUser(Long id) {
+
+        return userService.getUserById(id) ;
     }
 
     @PostMapping("/register")
+
     public UserEntity postUser(@RequestBody UserEntity user) {
         return userService.registerUser(user);
     }
