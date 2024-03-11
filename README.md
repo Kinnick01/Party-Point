@@ -24,5 +24,4 @@ Contributors:
 
 Feodóra Bakó
 Ádám Kraus
-Attilla Benjamin Vörös
-
+Zoltai Barna
