@@ -32,5 +32,3 @@ Feodóra Bakó
 
 Barna Zoltai
 
-Attila Benjamin Vörös
-
