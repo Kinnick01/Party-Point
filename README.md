@@ -87,10 +87,6 @@
 
   
 
-[![Product Name Screen Shot][product-screenshot]](https://ibb.co/bLzS4B4)
-
-  
-
 "Where the party never ends!"
 
 This project is a collaboration between multiple genius minds, trying to bring reality to the virtual world, and connect self minded pepole around the world.
