@@ -10,7 +10,7 @@
 <a  href="https://github.com/othneildrew/Best-README-Template">
 
 
-<a align="center" href="https://ibb.co/bLzS4B4"><img src="https://i.ibb.co/4MP6bTb/Full-Logo-Red.png" alt="Full-Logo-Red" border="0" /></a>
+<a href="https://ibb.co/bLzS4B4"><img src="https://i.ibb.co/4MP6bTb/Full-Logo-Red.png" align="center" alt="Full-Logo-Red" border="0" /></a>
 </a>
 
   
